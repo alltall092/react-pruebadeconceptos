@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
   },
 });
 
-
+// hola
 const PDFComponent = () => (
   <Document>
     <Page size="A4" style={styles.page}>

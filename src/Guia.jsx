@@ -4,7 +4,7 @@ import PDFComponent from './PDFComponent';
 
 function Guia() {
 
-
+// hola soy tu guia
   return (
     <div>
       <PDFViewer style={{ width: '100%', height: '100vh' }}>
