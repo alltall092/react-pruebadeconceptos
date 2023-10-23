@@ -1,0 +1,91 @@
+body{
+background-color:lightgray !important;
+
+}
+.contenedor{
+background-color:white !important;
+width:100%;
+height:auto;
+margin:10px;
+padding: 10px;
+-webkit-box-shadow: 5px 5px 10px 5px rgba(15, 15, 15, 0.9);
+box-shadow: 5px 5px 10px 5px rgba(15, 15, 15, 0.9);
+-webkit-border-radius: 7px 7px 7px 7px;
+border-radius: 7px 7px 7px 7px;
+
+
+
+}
+h2,input,p,label{
+    margin:5px;
+    padding:5px;
+    color:green;
+ 
+
+
+}
+.form-control{
+    border:1px solid green !important;
+
+}
+
+
+button{
+color:black;
+
+}
+button:hover{
+background-color:green !important;
+color:white;
+
+}
+h2,h3{ 
+color:green !important;
+font-family:'arial' !important;
+
+}
+.dropzone {
+    border: 2px dashed #28a745; /* Color verde */
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+
+  }
+  
+  .icon{
+margin:3px;
+padding:3px;
+color:yellowgreen;
+font-size:30px;
+
+
+  }
+  
+.progress{
+margin:10px;
+padding:1px;
+
+
+  }
+ul li{
+color:#28a745;
+list-style:none;
+
+
+}
+.form-control-feedback{
+position:absolute;
+padding:10px;
+pointer-events:none;
+
+
+
+
+}
+.control{
+padding-left:30px !important;
+  
+}
+

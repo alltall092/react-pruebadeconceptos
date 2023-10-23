@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.whatsapp-button a {
+    display: flex;
+    align-items: center;
+    background-color: #25d366;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.whatsapp-button a i {
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+.whatsapp-button a span {
+    font-size: 16px;
+}
+
+.whatsapp-button a:hover {
+    background-color: #128c7e;
+    transform: scale(1.05);
+}
